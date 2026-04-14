@@ -68,7 +68,7 @@ export interface User {
   name: string;
   email: string;
   password: string;
-  phone?: string;
+  phone: string | null;
   addresses: Address[];
   orders: string[];
   createdAt: Date;
